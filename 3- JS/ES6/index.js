@@ -95,3 +95,16 @@ console.log(myName,age);
 // const {username:myName,age:myAge} = userData;
 
 // console.log(myName,myAge);
+
+//Template Literals
+
+const myFriendName = 'Taj';
+const greeting = "Happy Birthday " + myFriendName + ", Have a Great year ahead.";
+console.log(greeting);
+
+//ES6
+
+// const greeting = `Happy birthday ${myFriendName}
+// Have a great Life ahead, be cool as always
+// `;
+// console.log(greeting);
