@@ -1,0 +1,1 @@
+Run "npm start" to run the development server (lite-server)
