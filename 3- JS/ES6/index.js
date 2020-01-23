@@ -60,3 +60,38 @@ function makeArray(name, ...args) {
     return args;
 }
 console.log(makeArray("Salman", 1, 2, 6));
+
+//Destructuring
+
+//Destructuring -Array
+
+const myHobbies = ['Cooking','Sports'];
+console.log(myHobbies[0],myHobbies[1]);
+
+const myHobby1 = myHobbies[0];
+const myHobby2 = myHobbies[1];
+
+console.log(myHobby1,myHobby2);
+
+//ES6
+
+// const [hobby1,hobby2] = myHobbies;
+// console.log(hobby1,hobby2)
+
+
+//Destructuring - Objects
+const userData = {username: "Salman",age:24}
+const myName = userData.username;
+const age = userData.age;
+console.log(myName,age);
+
+//ES6
+
+// const {username,age} = userData;
+// console.log(username,age)
+
+
+//Alias
+// const {username:myName,age:myAge} = userData;
+
+// console.log(myName,myAge);
