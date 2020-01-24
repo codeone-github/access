@@ -1,0 +1,3 @@
+Navigate inside "ES6 folder
+Run "sudo npm install" command to install dependencies
+Run "npm start" to run the development server (lite-server)
