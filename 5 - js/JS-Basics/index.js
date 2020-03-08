@@ -310,4 +310,5 @@ var reverseBranch = "";
 
 for (i = 0; i < branch.length; i++) {
   reverseBranch = branch.charAt(i) + reverseBranch;
+  console.log(reverseBranch);
 }
