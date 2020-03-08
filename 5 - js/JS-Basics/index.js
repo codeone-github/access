@@ -293,3 +293,21 @@ var video = {
 
 //1.this in function refers to window Object
 //2. Function within object is called `Method` and `this` keyword within Method refers to scope of the Object
+
+//String Functions
+
+var college = "Ghousia";
+console.log(college.length);
+console.log(college.charAt(0));
+//You can access any charatcter by passing index value to `charAt` function
+
+//Note: Explore on split and join functions
+
+//Reversing the string
+
+var branch = "computerscience";
+var reverseBranch = "";
+
+for (i = 0; i < branch.length; i++) {
+  reverseBranch = branch.charAt(i) + reverseBranch;
+}
