@@ -109,9 +109,86 @@ console.log(greeting);
 // `;
 // console.log(greeting);
 
+// Value vesses Reference 
+
+//1.Value type copy
+
+// let  x = 10;
+// let y = x;
+
+// x = 20;
+
+
+//2.Reference Copy
+
+// let x = { value: 10};
+// let y = x;
+
+// x.value = 20;
+
+// console.log(y);
+
+// Cloning Objects Two ways
+
+// const circle = {
+// 	radius: 1,
+// 	area: 20,
+// 	draw() {
+// 		console.log('draw')
+// 	}
+// };
+
+// 1. First way
+
+// const another = {};
+// for(let key in circle) {
+// 	// console.log(key,circle[key])
+// 	another[key] = circle[key]
+// }
+
+// 1. Second way using spread operator
+// const another = {...circle}
+// console.log(another);
+
+
+//Arrays Adding and Removing
+
+// const numbers = [1,2,4,5];
+
+// const last = numbers.pop();
+
+// const first = numbers.shift(6);
+
+// const middle = numbers.splice(2);
+// console.log(numbers);
+
+
+// console.log(numbers.indexOf(1));
+
+// const Obj = [
+// 	{id: 1,name: 'a'},
+// 	{id: 2,name: 'b'}
+// ];
+
+//Array helper Methods vanilla to ES6 transformation
+
+// const result = Obj.find(function(element) {
+// 	return element.name === 'b';
+// });
+
+
+// const result = Obj.find((element) => {
+// 	return element.name === 'b';
+// });
+
+// const result = Obj.find(element => element.name === 'b');
+// const res = Obj.find(e => e.id == 1);
+
+// console.log(res)
+
+// const numbers = [0,-1,1.3,2,-3];
 
 //Array helper methods in ES6
- 
 // forEach
 // forEach accept a function iterator that loop through each item in an array
 
