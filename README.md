@@ -17,7 +17,7 @@ Give a ⭐️ if this helped you!
  
  Twitter: 
  
- [@Salman18Dev](https://twitter.com/salmanaleemkhan) <br/>
+ [@salmanaleemkhan](https://twitter.com/salmanaleemkhan) <br/>
  [@Tajammul1996](https://twitter.com/Tajammul1996) <br/>
  [@KarthikTabjul](https://twitter.com/KarthikTabjul)
 
